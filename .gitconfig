@@ -1,0 +1,13 @@
+[push]
+  default = simple
+[user]
+  name = Andrey Metelsky
+  email = andrey.metelsky@gmail.com
+[core]
+  editor = vim
+[filter "media"]
+  required = true
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
+
+
