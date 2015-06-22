@@ -132,6 +132,7 @@ Bundle 'mattn/emmet-vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/base16-vim'
 colorscheme base16-default
+let base16colorspace=256
 Bundle "scrooloose/syntastic"
 Bundle "scrooloose/nerdtree"
     map <C-n> :NERDTreeToggle<CR>
