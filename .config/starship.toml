@@ -1,0 +1,58 @@
+
+# ███████╗████████╗ █████╗ ██████╗ ███████╗██╗  ██╗██╗██████╗
+# ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║  ██║██║██╔══██╗
+# ███████╗   ██║   ███████║██████╔╝███████╗███████║██║██████╔╝
+# ╚════██║   ██║   ██╔══██║██╔══██╗╚════██║██╔══██║██║██╔═══╝
+# ███████║   ██║   ██║  ██║██║  ██║███████║██║  ██║██║██║
+# ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝
+# The minimal, blazing-fast, and infinitely customizable prompt
+# https://starship.rs
+
+
+
+[directory]
+style = "blue bold"
+
+[package]
+disabled = true
+
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
+[aws]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[git_branch]
+format = "on [$symbol$branch](bold purple) "
+
+[git_commit]
+disabled = true
+
+[git_state]
+disabled = false
+
+
+[git_metrics]
+disabled = true
+
+[git_status]
+disabled = true
+format = '([$all_status]($style))'
+conflicted = "([⚠️ ${count}](bold red) )"
+ahead = "([⟫${count}])"
+behind = "([⟪${count}])"
+stashed = "([↪ ${count}](bold red)) "
+modified = "([柳${count}](bold yellow) )"
+staged = "([ ${count}](bold green) )"
+renamed = "([⇆ ${count}](vold blue) )"
+deleted = "([ ${count}](bold red) )"
+untracked ="([ ${count}](dimmed red) )"
+
+[nodejs]
+disabled=true
