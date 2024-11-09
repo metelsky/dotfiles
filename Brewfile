@@ -2,8 +2,6 @@
 # specify a directory to install
 cask_args appdir: '/Applications'
 # install packages
-tap 'homebrew/cask' || true
-tap 'homebrew/cask-versions' || true
 brew 'mas'
 brew 'git'
 brew 'tree'
@@ -12,6 +10,8 @@ brew 'rbenv'
 brew 'starship'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
+brew 'zsh-autocomplete'
+brew 'fzf'
  
 # Casks
 cask 'google-chrome'
@@ -26,7 +26,7 @@ cask 'zoom'
 cask 'rekordbox' 
 cask 'logi-options-plus' 
 cask 'outline-manager'
-mas 1356178125 # Outline VPN 
+mas 'Outline-Secure internet access', id: 1356178125 # Outline VPN 
 cask 'whatsapp'
 
 cask 'iterm2'
