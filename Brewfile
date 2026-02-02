@@ -12,6 +12,10 @@ brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autocomplete'
 brew 'fzf'
+brew 'zoxide'
+brew 'git-delta'
+brew 'eza'
+brew 'claude-code'
  
 # Casks
 cask 'google-chrome'
